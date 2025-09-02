@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Car Photo Collage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Car Photo Collage</h1>
+
+  <div class="collage">
+    <div class="card">
+      <img src="./assets/1.jpg" alt="Sports Car" data-info="Sports Car - Speed and performance redefined.">
+      <div class="info">Sports Car - Speed and performance redefined.</div>
+    </div>
+    <div class="card">
+      <img src="./assets/2.jpg" alt="Luxury Car" data-info="Luxury Car - Comfort meets elegance.">
+      <div class="info">Luxury Car - Comfort meets elegance.</div>
+    </div>
+    <div class="card">
+      <img src="./assets/3.avif" alt="Classic Car" data-info="Classic Car - Timeless beauty on wheels.">
+      <div class="info">Classic Car - Timeless beauty on wheels.</div>
+    </div>
+    <div class="card">
+      <img src="./assets/4.jpg" alt="Race Car" data-info="Race Car - Built for ultimate speed and control.">
+      <div class="info">Race Car - Built for ultimate speed and control.</div>
+    </div>
+    <div class="card">
+      <img src="./assets/5.avif" alt="Supercar" data-info="Supercar - Innovation and extreme performance.">
+      <div class="info">Supercar - Innovation and extreme performance.</div>
+    </div>
+    <div class="card">
+      <img src="./assets/6.jpg" alt="Jeep" data-info="Jeep - Adventure begins where the road ends.">
+      <div class="info">Jeep - Adventure begins where the road ends.</div>
+    </div>
+    <div class="card">
+      <img src="./assets/7.avif" alt="Vintage Car" data-info="Vintage Car - Old-world charm and heritage.">
+      <div class="info">Vintage Car - Old-world charm and heritage.</div>
+    </div>
+    <div class="card">
+      <img src="./assets/8.jpg" alt="Convertible Car" data-info="Convertible - Freedom under the open sky.">
+      <div class="info">Convertible - Freedom under the open sky.</div>
+    </div>
+    <div class="card">
+      <img src="./assets/9.jpg" alt="Electric Car" data-info="Electric Car - Driving into the future, eco-friendly.">
+      <div class="info">Electric Car - Driving into the future, eco-friendly.</div>
+    </div>
+  </div>
+
+  <!-- Fullscreen modal -->
+  <div class="modal" id="imageModal">
+    <span class="close-btn" id="closeBtn">&times;</span>
+    <img id="modalImg" src="" alt="">
+    <div class="caption" id="modalCaption"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
